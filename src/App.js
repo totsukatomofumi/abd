@@ -144,17 +144,17 @@ function Intro({ setIsIntroEnd }) {
   return (
     <div className="fixed top-0 left-0 z-50" ref={introRef}>
       <div
-        className="absolute top-0 left-0 z-50 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-50 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={intro1Style}
         ref={intro1Ref}
       ></div>
       <div
-        className="absolute top-0 left-0 z-40 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-40 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={intro2Style}
         ref={intro2Ref}
       ></div>
       <div
-        className="absolute top-0 left-0 z-30 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-30 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={intro3Style}
         ref={intro3Ref}
       ></div>
@@ -216,7 +216,7 @@ function Dialog({ isIntroEnd, isDialogEnd, setIsFirstClick, setIsDialogEnd }) {
   return (
     <div className="fixed top-0 left-0 z-40" ref={dialogRef}>
       <div
-        className="absolute top-0 left-0 z-50 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-50 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={dialog1Style}
         ref={dialog1Ref}
         onClick={() => {
@@ -226,7 +226,7 @@ function Dialog({ isIntroEnd, isDialogEnd, setIsFirstClick, setIsDialogEnd }) {
         }}
       ></div>
       <div
-        className="absolute top-0 left-0 z-40 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-40 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={dialog2Style}
         onClick={() => {
           playClick();
@@ -244,7 +244,7 @@ function Background() {
 
   return (
     <div
-      className="fixed top-0 left-0 -z-50 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat bg-no-repeat"
+      className="fixed top-0 left-0 -z-50 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat bg-no-repeat"
       style={backgroundStyle}
     ></div>
   );
@@ -420,76 +420,76 @@ function Party({ isDialogEnd, isPartyStart }) {
   return (
     <div className="fixed top-0 left-0 -z-40">
       <div
-        className="absolute top-0 left-0 z-50 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-50 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={table1Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-40 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffEven"
+        className="absolute top-0 left-0 z-40 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffEven"
         style={gumiStyle}
       ></div>
       <div
-        className="absolute top-0 left-0 z-30 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffRight staffOdd"
+        className="absolute top-0 left-0 z-30 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffRight staffOdd"
         style={staff1Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-20 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffRight staffEven"
+        className="absolute top-0 left-0 z-20 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffRight staffEven"
         style={staff2Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-20 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffRight staffOdd"
+        className="absolute top-0 left-0 z-20 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffRight staffOdd"
         style={staff3Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-40 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
+        className="absolute top-0 left-0 z-40 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
         style={staff4Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-40 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
+        className="absolute top-0 left-0 z-40 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
         style={staff5Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-30 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
+        className="absolute top-0 left-0 z-30 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
         style={staff6Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-10 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-10 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={table2Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-0 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="absolute top-0 left-0 z-0 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={aggieStyle}
         ref={aggieRef}
       ></div>
       <div
-        className="absolute top-0 left-0 z-0 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
+        className="absolute top-0 left-0 z-0 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
         style={staff7Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-0 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
+        className="absolute top-0 left-0 z-0 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
         style={staff8Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-0 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
+        className="absolute top-0 left-0 z-0 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
         style={staff9Style}
       ></div>
       <div
-        className="absolute top-0 left-0 -z-10 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
+        className="absolute top-0 left-0 -z-10 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffEven"
         style={staff10Style}
       ></div>
       <div
-        className="absolute top-0 left-0 -z-10 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
+        className="absolute top-0 left-0 -z-10 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffLeft staffOdd"
         style={staff11Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-0 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffRight staffEven"
+        className="absolute top-0 left-0 z-0 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffRight staffEven"
         style={staff12Style}
       ></div>
       <div
-        className="absolute top-0 left-0 z-0 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffRight staffOdd"
+        className="absolute top-0 left-0 z-0 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffRight staffOdd"
         style={staff13Style}
       ></div>
       <div
-        className="absolute top-0 left-0 -z-10 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat staffRight staffEven"
+        className="absolute top-0 left-0 -z-10 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat staffRight staffEven"
         style={staff14Style}
       ></div>
     </div>
@@ -570,12 +570,12 @@ function Order({ isDialogEnd, setIsCakeTime }) {
   return (
     <>
       <div
-        className="hidden fixed top-0 left-0 z-30 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+        className="hidden fixed top-0 left-0 z-30 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
         style={orderStyle}
         ref={orderRef}
       ></div>
       <div
-        className="hidden fixed top-0 left-0 z-40 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat justify-center items-center"
+        className="hidden fixed top-0 left-0 z-40 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat justify-center items-center"
         style={pawStyle}
         ref={pawRef}
       ></div>
@@ -635,7 +635,7 @@ function Cake({ isCakeTime, setIsPartyStart }) {
 
   return (
     <div
-      className="fixed top-0 left-0 z-40 w-screen h-screen bg-cover bg-origin-content bg-center bg-no-repeat"
+      className="fixed top-0 left-0 z-40 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat"
       style={cakeStyle}
       ref={cakeRef}
     ></div>
