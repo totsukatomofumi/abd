@@ -238,15 +238,14 @@ function Dialog({ isIntroEnd, isDialogEnd, setIsFirstClick, setIsDialogEnd }) {
 }
 
 function Background() {
-  const backgroundStyle = {
-    backgroundImage: `url(${backgroundImage})`,
-  };
-
   return (
-    <div
-      className="fixed top-0 left-0 -z-50 w-screen h-screen bg-contain bg-origin-content bg-center bg-no-repeat bg-no-repeat"
-      style={backgroundStyle}
-    ></div>
+    <div className="fixed top-0 left-0 -z-50 w-screen h-screen flex justify-center items-center">
+      <img
+        className="h-screen w-screen"
+        src={backgroundImage}
+        alt="background"
+      />
+    </div>
   );
 }
 
