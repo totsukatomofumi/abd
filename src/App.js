@@ -83,9 +83,12 @@ function App() {
         setIsFirstClick={setIsFirstClick}
         setIsDialogEnd={setIsDialogEnd}
       />
-      <Cake isCakeTime={isCakeTime} setIsPartyStart={setIsPartyStart} />
-      <Order isDialogEnd={isDialogEnd} setIsCakeTime={setIsCakeTime} />
-      <Party isDialogEnd={isDialogEnd} isPartyStart={isPartyStart} />
+      <div className="scale-[1.15]">
+        <Cake isCakeTime={isCakeTime} setIsPartyStart={setIsPartyStart} />
+        <Order isDialogEnd={isDialogEnd} setIsCakeTime={setIsCakeTime} />
+        <Party isDialogEnd={isDialogEnd} isPartyStart={isPartyStart} />
+        <Background />
+      </div>
       {isPartyStart && (
         <div className="fixed top-0 left-0 z-50">
           <Confetti
@@ -96,7 +99,6 @@ function App() {
           />
         </div>
       )}
-      <Background />
     </div>
   );
 }
