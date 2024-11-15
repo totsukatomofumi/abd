@@ -83,7 +83,7 @@ function App() {
         setIsFirstClick={setIsFirstClick}
         setIsDialogEnd={setIsDialogEnd}
       />
-      <div className="scale-[1.15]">
+      <div className="scale-[1.15] -translate-y-7">
         <Cake isCakeTime={isCakeTime} setIsPartyStart={setIsPartyStart} />
         <Order isDialogEnd={isDialogEnd} setIsCakeTime={setIsCakeTime} />
         <Party isDialogEnd={isDialogEnd} isPartyStart={isPartyStart} />
