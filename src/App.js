@@ -250,7 +250,7 @@ function Background() {
 
   return (
     <div
-      className="fixed top-0 left-0 -z-50 w-screen h-[90vh] bg-contain bg-center bg-no-repeat bg-[#e6d8ac]"
+      className="fixed top-0 left-0 -z-50 w-screen h-[90vh] bg-cover bg-center bg-no-repeat bg-[#e6d8ac]"
       style={backgroundStyle}
     >
       <div className="absolute top-[90vh] left-0 w-screen h-[10vh] bg-[#e6d8ac] "></div>
